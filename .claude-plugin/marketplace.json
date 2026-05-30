@@ -1,0 +1,86 @@
+{
+  "$schema": "https://claude.ai/schemas/plugin-marketplace.json",
+  "name": "bespoke-marketplace",
+  "version": "1.0.2",
+  "description": "Bespoke OS — the system that holds your AI output to a higher bar. For anyone tired of slop, hallucinated tone, and influencer false promises. Your soul, guided by Bruce's decade of running it solo. The standard. The cast. The gate.",
+  "owner": {
+    "name": "Bruce",
+    "url": "https://bbbrands.agency"
+  },
+  "plugins": [
+    {
+      "name": "bespoke-os",
+      "source": {
+        "source": "github",
+        "repo": "Brucebreeds/bespoke-marketplace"
+      },
+      "version": "1.0.2",
+      "description": "Bespoke OS is the operating layer that holds AI work to a real standard. Built for anyone using AI — solo founders, designers, non-creatives, CEOs, small brands, mega brands. A 45+ agent AI cast does the work a team would do, calibrated to founder-grade taste, with a gate that won't let anything ship unless it would actually survive a real founder's review. The user's soul, guided by Bruce's nearly-decade-deep experience. Built to keep users away from AI potholes and influencer false promises.",
+      "author": {
+        "name": "Bruce",
+        "url": "https://bbbrands.agency"
+      },
+      "license": "Proprietary",
+      "homepage": "https://bbbrands.agency/bespoke-os",
+      "repository": "https://github.com/Brucebreeds/bespoke-marketplace",
+      "icon": "https://raw.githubusercontent.com/Brucebreeds/bespoke-marketplace/main/assets/bespoke-icon-512.png",
+      "keywords": [
+        "design",
+        "branding",
+        "creative",
+        "quality-gate",
+        "motion-graphics",
+        "social-media",
+        "copy-writing",
+        "audit",
+        "founder-grade",
+        "brand-system",
+        "deep-glass",
+        "anti-ai-slop",
+        "anti-influencer-bs",
+        "real-experience",
+        "solo-founder",
+        "non-creative-friendly",
+        "aesthetic-fit",
+        "taste-system",
+        "anti-pattern-engine"
+      ],
+      "mcpServers": {
+        "bespoke-os": {
+          "command": "npx",
+          "args": [
+            "mcp-remote",
+            "https://bespoke-os-mcp.bearback.workers.dev/mcp"
+          ]
+        }
+      },
+      "metadata": {
+        "tagline": "Your soul, guided by Bruce's. The standard. The cast. The gate. Built for anyone tired of AI slop and influencer false promises.",
+        "tier_model": {
+          "bespoke_for_everyone": {
+            "display_name": "Bespoke For Everyone",
+            "price": "$0 / forever",
+            "note": "Real free tier, not a trial. Live here for months if it serves you."
+          },
+          "bespoke": {
+            "display_name": "Bespoke",
+            "price_monthly": "$15/mo",
+            "price_annual": "$150/yr (save $30, 7-day free trial, no refunds on annual prepay)",
+            "launch_promo": "First 2 months $10/mo, then $15/mo ongoing"
+          },
+          "bespoke_plus_dev": {
+            "display_name": "Bespoke + Dev",
+            "price_monthly": "+$8/mo ($23 total)",
+            "price_annual": "+$60/yr ($210 total, annual works out to ~$5/mo extra)"
+          }
+        },
+        "payment_providers": {
+          "primary": "PayPal",
+          "secondary": "LemonSqueezy",
+          "note": "AI-friendly providers. Stripe blocks AI-adjacent businesses, so Bespoke uses providers that don't ban us for existing."
+        },
+        "honest_framing": "Bespoke isn't the AI. It's the system that holds AI output to a real standard. Your brand, your voice, your taste — channeled through nearly a decade of Bruce running it solo. We don't promise '10x.' We promise real work, the right way, growing with you."
+      }
+    }
+  ]
+}

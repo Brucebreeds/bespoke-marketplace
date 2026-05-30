@@ -1,0 +1,26 @@
+{
+  "name": "bespoke-os",
+  "description": "Bespoke OS — the system that holds your AI output to a real standard. Built for anyone working with AI (founders, designers, CEOs, new-to-tech). A 45+ agent cast does the work a team would. Your soul, guided by Bruce's nearly-decade-deep experience. Keeps you away from AI potholes and influencer false promises.",
+  "version": "1.0.2",
+  "author": {
+    "name": "Bruce",
+    "url": "https://bbbrands.agency"
+  },
+  "homepage": "https://bbbrands.agency/bespoke-os",
+  "repository": "https://github.com/Brucebreeds/bespoke-marketplace",
+  "license": "Proprietary",
+  "keywords": [
+    "design",
+    "branding",
+    "creative",
+    "quality-gate",
+    "founder-grade",
+    "anti-influencer-bs",
+    "real-experience",
+    "solo-founder",
+    "non-creative-friendly",
+    "aesthetic-fit",
+    "taste-system",
+    "anti-pattern-engine"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "Bespoke OS hooks config — drop this file into your Claude Code project's hooks/ folder to auto-load Bespoke mode on every session.",
+  "_source": "Bespoke OS v1.0 · 2026-05-27",
+  "hooks": {
+    "session-start": "./hooks/bespoke-session-start.sh"
+  },
+  "env": {
+    "BESPOKE_WORKER_URL": "https://bespoke-os-mcp.bearback.workers.dev",
+    "BESPOKE_USER_ID": "anon",
+    "_note_owner_token": "Set BESPOKE_OWNER_TOKEN env var for Bruce-mode elevation. Not required for general use."
+  }
+}
